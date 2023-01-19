@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 98vh;
+    background-color: #000000;
+}
+div{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a, nav{
+    display: block;
+    vertical-align: bottom;
+}
