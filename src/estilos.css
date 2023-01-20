@@ -8,11 +8,11 @@
     background-color: #000000;
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 /* 
  display flex sempre coloca os elementos em do lado do outro, tambem como padrao o flex direction row
 */
-
 .cabecalho .logo{
     width: 65px;;
 }
@@ -30,5 +30,9 @@ a{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    
+}
+.menu a:hover{
+    background-color: #ff000091;
+    border-radius: 50px;
+    transition: 1s;
 }
