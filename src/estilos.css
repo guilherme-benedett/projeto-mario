@@ -4,17 +4,31 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    height: 98vh;
+.cabecalho{
     background-color: #000000;
-}
-div{
-    height: 98vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+/* 
+ display flex sempre coloca os elementos em do lado do outro, tambem como padrao o flex direction row
+*/
+
+.cabecalho .logo{
+    width: 65px;;
+}
+.cabecalho .menu{
+    display: flex;
     align-items: center;
 }
-a, nav{
-    display: block;
-    vertical-align: bottom;
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    
 }
